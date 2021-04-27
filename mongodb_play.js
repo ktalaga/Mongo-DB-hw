@@ -8,3 +8,5 @@ db.animals.updateOne(
     { _id: ObjectId('608747e651f029439899333b') },
     { $set: { name: "Knurek" } }
   );
+
+  db.animals.deleteOne({ _id: ObjectId('608747e651f029439899333b') });
